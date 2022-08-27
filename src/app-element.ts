@@ -20,7 +20,7 @@ export class AppElement extends LitElement {
 
   render() {
     if (!this.budgets) {
-      return "Loading";
+      return "";
     }
 
     const category = this.budgets.data.category_groups.find(
